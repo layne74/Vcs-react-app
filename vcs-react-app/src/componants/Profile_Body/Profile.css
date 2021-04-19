@@ -36,9 +36,11 @@
 .second-info p{
     margin: 0px;
 }
+/* line going across the page on profile */
 hr{
     border: 1px solid #00e1ff81;
 }
+
 
 /* Profile page loading gif styling */
 .loading-div {

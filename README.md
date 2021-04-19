@@ -102,6 +102,10 @@ eg:
 ]
 ```
 
+## Things to note
+
+The github api can only be called 60 times per hour per IP, so make them count... unless you have  a vpn. After the 60th call, github results will show "User not found".
+
 # Author
 
 [Layne Hutchings](https://github.com/layne74)

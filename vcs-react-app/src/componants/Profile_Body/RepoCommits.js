@@ -1,9 +1,10 @@
 import React from 'react'
-import './RepoCommits.css'
 
 export default function RepoCommits( props ) {
+    // Props deconstruction
     const { commitMsg } = props;
 
+    // Maps the commit messages
     const listItems = commitMsg.map((msg, index) =>
         <li key={index.toString()}>
             {msg}
