@@ -42,11 +42,11 @@ export default function Results( props ) {
         return resultItem
     });
 
-    //Ignore this================================================================================Ignore this
-    let btns = document.getElementsByClassName("response-name");
-    
-    for (let i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function() {
+    // Adds event listener to the results that assigned the active-block class
+    let blocks = document.getElementsByClassName("response-name");
+    for (let i = 0; i < blocks.length; i++) {
+        // each block gets a event listener
+        blocks[i].addEventListener("click", function() {
             let current = document.getElementsByClassName("active-block");
             if (current.length > 0) { 
                 current[0].className = current[0].className.replace(" active-block", "");
@@ -54,9 +54,7 @@ export default function Results( props ) {
             this.parentNode.className += " active-block";
         });
     }
-    //Ignore this================================================================================Ignore this
-
-
+    
     return (
         <div id="result-row">
             {results}
