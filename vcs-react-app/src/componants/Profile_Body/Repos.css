@@ -1,0 +1,55 @@
+/* The main repo div */
+.repo-block {
+    margin-top: 20px;
+}
+/* The heading div in the repo block */
+.repo-heading {
+    background-color: rgba(128, 128, 128, 0.192);
+    color: white;
+    height: fit-content;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/* The heading styleing */
+.repo-heading p{
+    padding: 10px;
+    margin: 0px;
+}
+/* styling for the creation date */
+.date-created-div p{
+    color: rgb(138, 138, 138);
+    font-size: 10px;
+    text-align: right;
+    margin: 0px;
+    padding: 2px 10px ;
+}
+/* stying for the commit heading */
+.repo-commit-heading{
+    background-color: rgba(170, 170, 170, 0.089);
+    height: fit-content;
+}
+.repo-commit-heading p{
+    padding: 5px 0px 5px 10px;
+    margin: 0px;
+    font-size: 80%;
+    color: rgb(158, 158, 158);
+}
+/* Styling for the repos description */
+.repo-desc{
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+}
+/* Styling for the commits */
+.repo-commits {
+    padding: 10px;
+}
+.repo-commits p {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(165, 165, 165);
+    font-size: 15px;
+}
+/* list styling */
+ul {
+    margin-left: 10px;
+}

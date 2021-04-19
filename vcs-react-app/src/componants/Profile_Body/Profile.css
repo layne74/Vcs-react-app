@@ -1,0 +1,51 @@
+/* Profile styling */
+/* Main profile body */
+.profile-div{
+    text-align: center;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #00e1ff81;
+    border-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    color: aliceblue;
+}
+/* image the profile picture is in */
+.pro-pic-div{
+    text-align: center;
+}
+/* the actual image */
+.profile-picture {
+    border-radius: 9000px;
+    width: 100%;
+    border: 2px solid #00e1ff81;
+}
+/* The button to their page */
+.side-info button{
+    background-color: #00e1ff81;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+/* The followers, gists, repo count div */
+.second-info{
+    display: flex;
+    justify-content: space-around;
+}
+.second-info p{
+    margin: 0px;
+}
+hr{
+    border: 1px solid #00e1ff81;
+}
+
+/* Profile page loading gif styling */
+.loading-div {
+    text-align: center;
+}
+.loadingGif {
+    border-radius: 0px;
+    height: 50px;
+    margin: 20px;
+}

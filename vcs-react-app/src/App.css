@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  transition: all 0.1s ease;
+  
+}
+body {
+  background-color: rgb(45, 44, 48);
+}
+.App {
+  background-color: rgb(45, 44, 48);
+  margin: auto;
+  width: 50%;
+  min-width: 600px;
+  padding: 10px;
+  text-align: center;
+}
+
+.credit-text{
+  color: rgb(170, 170, 170);
+}
+.credit-text a{
+  color: #00e1ffb9;
+}

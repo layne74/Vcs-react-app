@@ -1,0 +1,90 @@
+/* Main heading */
+.heading{
+    margin: 30px;
+    color: white;
+}
+/* Main earch div */
+.search-div{
+    margin-bottom: 20px;
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+}
+/* Search input */
+input {
+    background-color: rgba(240, 248, 255, 0.212);
+    width: 60%;
+    height: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+/* Search form */
+.search-form {
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+/* Search button styling */
+.search-btn {
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #00e1ff9c;
+    padding: 2px 20px 2px 20px;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.search-btn:hover{
+    background-color: #00e1ffb9;
+}
+.search-btn:focus{
+    outline: none;
+}
+/* Home div styling */
+.home {
+    margin: auto;
+    width: 80%;
+}
+/* Houses the results from the search */
+#result-row {
+    background-color: rgba(255, 255, 255, 0.13);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #00e1ff81;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+/* Styling for the div that houses each result from the search */
+.result-block{
+    width: 100%;
+}
+.result-block:hover{
+    background-color: #00e1ff65;
+}
+/* Styling for when a provider has been chosen */
+.active-block{
+    background-color: #00e1ff81;
+}
+/* Styling for the VCS prider name */
+.result-title {
+    font-size: 110%;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+/* Styling for the usernames */
+.result-block p{
+    margin-top: 10px;
+}
+/* makes the name bolder when hovered over */
+.response-name:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
