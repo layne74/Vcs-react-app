@@ -1,14 +1,16 @@
+/* Universal styling */
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   outline: none;
   transition: all 0.1s ease;
-  
 }
+/* HTML body styling */
 body {
   background-color: rgb(45, 44, 48);
 }
+/* App body styling */
 .App {
   background-color: rgb(45, 44, 48);
   margin: auto;
@@ -17,7 +19,7 @@ body {
   padding: 10px;
   text-align: center;
 }
-
+/* Credit styling */
 .credit-text{
   color: rgb(170, 170, 170);
 }
