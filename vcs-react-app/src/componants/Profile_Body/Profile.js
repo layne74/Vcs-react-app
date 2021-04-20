@@ -2,7 +2,7 @@ import React from 'react'
 import InstructionsPage from '../../media/landing-page-picture.png'
 import GithubProfile from './GithubProfile'
 import GitLabProfile from './GitLabProfile'
-import GitbucketProfile from './GitbucketProfile'
+import BitbucketProfile from './BitbucketProfile'
 import './Profile.css'
 
 
@@ -28,10 +28,10 @@ export default function Profile( props ) {
                 </div>
             )
         case 2:
-            // Returns the gitbucket profile template
+            // Returns the bitbucket profile template
             return (
                 <div className="profile-div">
-                    <GitbucketProfile accounts={accounts} vcsChosen={vcsChosen}/>
+                    <BitbucketProfile accounts={accounts} vcsChosen={vcsChosen}/>
                 </div>
             )
         default:

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Repos from './Repos';
 import Loading from '../../media/loadingHourGlass.gif'
 
-export default class GithubProfile extends Component {
+export default class BitbucketProfile extends Component {
     
     constructor( props ) {
         super( props );
